@@ -46,7 +46,7 @@ This phase helped me gain practical experience working with Azure virtual machin
 
 ### 📸 Honeypot Deployment Screenshot
 
-![Azure Honeypot Deployment](screenshots/01-honeypot-deployment.png)
+![Azure Honeypot Deployment]
 
 **Skills demonstrated:** Azure administration, virtual machines, cloud infrastructure, and security lab setup.
 
@@ -62,7 +62,7 @@ This phase helped me understand how security events are recorded and how analyst
 
 ### 📸 Security Log Investigation Screenshot
 
-![Windows Security Log Investigation](screenshots/02-security-log-investigation.png)
+![Windows Security Log Investigation]
 
 <img src="https://i.imgur.com/6hqxvb3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
@@ -83,7 +83,7 @@ This stage demonstrated how security teams use centralized monitoring to analyze
 
 ### 📸 SIEM Deployment Screenshot
 
-![Azure Log Analytics and Microsoft Sentinel](screenshots/03-siem-deployment.png)
+![Azure Log Analytics and Microsoft Sentinel]
 
 <img src="https://i.imgur.com/u4ZGVnZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
@@ -99,7 +99,7 @@ The attack map provided a geographic overview of the observed authentication act
 
 ### 📸 Geographic Attack Map Screenshot
 
-![Microsoft Sentinel Geographic Attack Map](screenshots/04-attack-map.png)
+![Microsoft Sentinel Geographic Attack Map]
 
 <img src="https://i.imgur.com/1KPQj2Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
@@ -156,48 +156,4 @@ The project helped me better understand how security analysts use Microsoft Sent
 It also strengthened my interest in cybersecurity, particularly Security Operations Center (SOC) analysis and cloud security monitoring.
 
 ---
-
-## ⚠️ Disclaimer
-
-This project was conducted for educational and defensive security research within a designated cloud lab environment.<h1>Honeypot and SIEM detection pipeline</h1>
-
-
-<h2>Description</h2>
-Deployed a deliberately exposed Windows 10 VM in Microsoft Azure to attract real-world attack traffic, then built a full detection pipeline around it: centralized logging via Log Analytics Workspace, Microsoft Sentinel as the SIEM, KQL queries for log analysis, and GeoIP enrichment to map attacker origins in a live Sentinel workbook.
-<br />
-
-
-<h2>Languages and Utilities Used</h2>
-
-- <b>KQL (Kusto Query Language)</b> 
-- <b>Azure Virtual Machines</b>
-- <b>Microsoft Sentinel</b>
-- <b>Log Analytics Workspace</b>
-
-<h2>Environments Used </h2>
-
-- <b>Windows 10</b> 
-
-<h2>Overview:</h2>
-
-<p align="center">
-Deploy the Honeypot and
-Confirm the Trap & Investigate Logs: <br/>
-<img src="https://i.imgur.com/6hqxvb3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="https://i.imgur.com/jbTBwLc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Centralize Logging & Deploy the SIEM: <br/>
-<img src="https://i.imgur.com/u4ZGVnZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enrich Logs with Geolocation Data and Build the Attack Map:  <br/>
-<img src="https://i.imgur.com/1KPQj2Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-
-
-
 
